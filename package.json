@@ -106,7 +106,11 @@
   },
   "private": true,
   "dependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/lodash-es": "^4.17.12",
     "chalk": "latest",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "ts-aoc-starter": "1.0.4"
   },
   "devDependencies": {
@@ -116,5 +120,8 @@
     "tsx": "latest",
     "typescript": "latest"
   },
-  "type": "module"
+  "type": "module",
+  "volta": {
+    "node": "20.10.0"
+  }
 }
